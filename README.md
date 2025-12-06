@@ -46,6 +46,11 @@ WinCord needs your **Discord Client ID** and **Client Secret** to connect to you
    - Click **“Click to Reveal”** to see the **Client Secret** and copy it.  
    > Keep your Client Secret private!
 
+4. **Set Redirect URI**
+   - Go to **OAuth2** → **Redirects**.
+   - Add http://localhost:8000/callback and save.
+   > This is required so WinCord can receive the authorization code from Discord.
+
 ## Usage
 1. Open the application manually or let it run on startup.
 2. Paste your Client ID and Client Secret into the WinCord GUI and click **Save Config**.  
