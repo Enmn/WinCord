@@ -1,4 +1,4 @@
-# WinCord – Sync your Discord avatar with Windows account
+# WinCord – Sync Discord avatar to Windows
 WinCord is a Python application that automatically updates your Windows account picture using your Discord avatar. It runs in the system tray, monitors your avatar on Discord, and updates your Windows avatar silently using PsExec.
 
 ## Features
